@@ -1,0 +1,447 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="f`yK?iPUekm*8bWVI`Fu" x="710" y="-1130">
+    <mutation component_type="Form" is_generic="false" instance_name="about" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">about</field>
+    <statement name="DO">
+      <block type="component_method" id="iLHrl5[{M252nXyB.H]-">
+        <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+        <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+        <value name="ARG0">
+          <block type="text" id="ic*$=li;Z`Kk_t~P0zEp">
+            <field name="TEXT">Rewards</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="text" id="fU,s:aFndJ#DbI;$U8C)">
+            <field name="TEXT">rewards2.png</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="logic_boolean" id="gAh4%BPN*H4kh*!0,ea#">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block type="logic_boolean" id="qQw./wlB(y232-zfA|0g">
+            <field name="BOOL">FALSE</field>
+          </block>
+        </value>
+        <value name="ARG4">
+          <block type="math_number" id="]Z%c38kOUM(3ykqN+4+U">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="8yW;G(]mV0P3-xmNNk7A">
+            <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+            <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+            <value name="ARG0">
+              <block type="text" id="JWby,5;5UY2cJEE*nR:J">
+                <field name="TEXT">Menu</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="rxGZ3;m@#53^(sbR?v!A">
+                <field name="TEXT">menu_icon.png</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <block type="logic_boolean" id="q;/b)Rq_X3AmvPuYVs]+">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <value name="ARG3">
+              <block type="logic_boolean" id="W3*fsFM[xYDmEPbMew,f">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+            <value name="ARG4">
+              <block type="math_number" id="-]669v5/x6%,7T?,F5o$">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="[%Y$p-}?1o$Y26vP2lDy">
+                <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                <value name="ARG0">
+                  <block type="text" id="=emClE:3s1zWbsL@YNRH">
+                    <field name="TEXT">About Us</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="text" id=")ZqBLa@g6s?kV!kJ_o!w">
+                    <field name="TEXT">a.png</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block type="logic_boolean" id="aq*`Bz;a.C0=x9/Ny|yk">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block type="logic_boolean" id="wXEWeiSM_@baN?}|A^3T">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <value name="ARG4">
+                  <block type="math_number" id="4|p5$#TM}8$3Nw3kwvw?">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_method" id="=.A7(8%x*un]6k$qrt1Q">
+                    <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                    <value name="ARG0">
+                      <block type="text" id="@}Q;:b)+o7lzVHSy4CpN">
+                        <field name="TEXT">Exit App</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block type="text" id="13|if/=~wgUQl6J#lN!a">
+                        <field name="TEXT">e.png</field>
+                      </block>
+                    </value>
+                    <value name="ARG2">
+                      <block type="logic_boolean" id="fnBvs`SSdd{8DOE?7vuv">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <value name="ARG3">
+                      <block type="logic_boolean" id="iYz0/7G18}aF_RvOvwE6">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                    <value name="ARG4">
+                      <block type="math_number" id="I9_GYu2Iy@M)v+6=#a;(">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="t-GSv~VW/eoZHQ}_%/1v">
+                        <mutation component_type="MakeroidSideMenuLayout" set_or_get="set" property_name="HeaderBackgroundImage" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                        <field name="PROP">HeaderBackgroundImage</field>
+                        <value name="VALUE">
+                          <block type="text" id="#4R~(?5r@Qn!=17)qk1l">
+                            <field name="TEXT">bloodedonate_icon.jpg</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=")GX5#{F^AnUWE.(Hrefm" x="-170" y="-910">
+    <mutation component_type="Button" is_generic="false" instance_name="Check_github" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Check_github</field>
+    <statement name="DO">
+      <block type="component_set_get" id="ORBy7KM1xDlEydcoN=E9">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="Activity_Starter1"></mutation>
+        <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+        <field name="PROP">Action</field>
+        <value name="VALUE">
+          <block type="text" id="JNn|q1,B-GUI*p[sh03;">
+            <field name="TEXT">android.intent.action.VIEW</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="T,xk.se@h3tw%e+f(|b*">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="Activity_Starter1"></mutation>
+            <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+            <field name="PROP">DataUri</field>
+            <value name="VALUE">
+              <block type="text" id="s)U6OwDQ.?CXL1usweOW">
+                <field name="TEXT">https://github.com/MarkEstrada-CS3A/Blood-eDonate</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="-Sni5[o1#Yt2HvWm1?,8">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="Activity_Starter1"></mutation>
+                <field name="COMPONENT_SELECTOR">Activity_Starter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="/l3ty]]6{lW{:Ezr=~^X" x="-250" y="-550">
+    <mutation component_type="KodularInAppUpdate" is_generic="false" instance_name="In-App_Update1" event_name="UpdateInstalled"></mutation>
+    <field name="COMPONENT_SELECTOR">In-App_Update1</field>
+    <statement name="DO">
+      <block type="controls_if" id="DWXaUK$/xJ@7~qOKd9Jj">
+        <value name="IF0">
+          <block type="logic_boolean" id="m-4TeQFi3=*P~WR4rLfc">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_closeApplication" id="[)?E-lQx1Km1X_941suT"></block>
+        </statement>
+        <next>
+          <block type="controls_openAnotherScreen" id="{8aRrcNh-)Hz-xI8dnoD">
+            <value name="SCREEN">
+              <block type="helpers_screen_names" id="I_$*Lgj{B;r2WR-H@P|+">
+                <field name="SCREEN">Screen1</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=".q(Z[SbPpe@LFYpCT[81" x="-250" y="-370">
+    <mutation component_type="KodularInAppUpdate" is_generic="false" instance_name="In-App_Update1" event_name="UpdateDownloaded"></mutation>
+    <field name="COMPONENT_SELECTOR">In-App_Update1</field>
+    <statement name="DO">
+      <block type="component_method" id="3~#ZWP@4`cPE`zdX|xj;">
+        <mutation component_type="KodularInAppUpdate" method_name="InstallFlexibleUpdateNow" is_generic="false" instance_name="In-App_Update1"></mutation>
+        <field name="COMPONENT_SELECTOR">In-App_Update1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="*((0B!hrG.%,`0SBE+;k" x="-250" y="-270">
+    <mutation component_type="Form" is_generic="false" instance_name="about" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">about</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="N{MXZ=x{u5rO|{74gXC_">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="A,/(C|!~nNF-w}z{2c}!">
+            <field name="SCREEN">menu</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="n0kkRIyuxHC1FSNV7X]v" x="570" y="-290">
+    <mutation component_type="MakeroidSideMenuLayout" is_generic="false" instance_name="Side_Menu_Layout1" event_name="OnMenuItemClick"></mutation>
+    <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+    <statement name="DO">
+      <block type="controls_if" id="tb!^in9d|hMx2g~P0,M7">
+        <mutation elseif="3"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="$4NDmDMJ8Tz[Uxk6P66B">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="-@Dg|9JpP(gHJ|H%Q)*q">
+                <mutation>
+                  <eventparam name="title"></eventparam>
+                </mutation>
+                <field name="VAR">title</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="WM%-.bmS-hU-IY9k*8g*">
+                <field name="TEXT">About Us</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="u1T?ye~U+wBah]w{|_-X">
+            <value name="SCREEN">
+              <block type="helpers_screen_names" id="e6cd=9!RWt`.,3pVSOOA">
+                <field name="SCREEN">about</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="(z]=nb[B7thLz]$f4Yl`">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="G0TsPtiE3FM%$mun2^d-">
+                <mutation>
+                  <eventparam name="title"></eventparam>
+                </mutation>
+                <field name="VAR">title</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="*K-n6uaicV]LK#1Sp/.l">
+                <field name="TEXT">Exit App</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="component_method" id="u{.!v9i*Mq1}VamlXV)|">
+            <mutation component_type="Notifier" method_name="CustomChooseDialog" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="math_number" id="$RGu(;Aotn4Nt$~4BfyF">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="Ym5sT4#`YXH%N0KQ+jB(">
+                <field name="TEXT">Do you really want to exit?</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <block type="text" id="e8z%!z+YZlM-AHUx:z]k">
+                <field name="TEXT">Confirmation</field>
+              </block>
+            </value>
+            <value name="ARG3">
+              <block type="text" id="Zi|$DjeXnRR/R|3=/G},">
+                <field name="TEXT">YES</field>
+              </block>
+            </value>
+            <value name="ARG4">
+              <block type="text" id="[4D[e{v#@`plu)]p:0!c">
+                <field name="TEXT"></field>
+              </block>
+            </value>
+            <value name="ARG5">
+              <block type="text" id="zre]^14mdc?O^l7b=eQ-">
+                <field name="TEXT">CANCEL</field>
+              </block>
+            </value>
+            <value name="ARG6">
+              <block type="text" id="e^s@*;{(VbU93c$9OU-f">
+                <field name="TEXT">blood_icon.png</field>
+              </block>
+            </value>
+            <value name="ARG7">
+              <block type="logic_false" id="n|WU,{izm~|D?%(|4yDf">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <value name="ARG8">
+              <block type="logic_false" id=".pxY87lZ/i8DImv#%wzI">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF2">
+          <block type="logic_compare" id="!_ih[6qxKF~go}csi}jP">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="9B0g!Nmu^i39+W)L^|nn">
+                <mutation>
+                  <eventparam name="title"></eventparam>
+                </mutation>
+                <field name="VAR">title</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="LoCo2.WCGR.p6C=!@t?c">
+                <field name="TEXT">Rewards</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO2">
+          <block type="controls_openAnotherScreen" id="^FcSx7j)8r7[(c5,YBaZ">
+            <value name="SCREEN">
+              <block type="helpers_screen_names" id="^A*?PagWOIB9tA$EI:5(">
+                <field name="SCREEN">rewards</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF3">
+          <block type="logic_compare" id="YU-,[m!sitwyIyw7S6+P">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="6$+w+X_sbkc=Se.g3@md">
+                <mutation>
+                  <eventparam name="title"></eventparam>
+                </mutation>
+                <field name="VAR">title</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="6Rx(~I#xBceX17l,#Lg7">
+                <field name="TEXT">Menu</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO3">
+          <block type="controls_openAnotherScreen" id="8PL/^=+#d;)u58mApm]5">
+            <value name="SCREEN">
+              <block type="helpers_screen_names" id="SddSI-Xy%(UJ^h6y#x]t">
+                <field name="SCREEN">menu</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="component_set_get" id="q,rShLg+zx:~;,p#oKSh">
+            <mutation component_type="MakeroidSideMenuLayout" set_or_get="set" property_name="HeaderBackgroundImage" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+            <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+            <field name="PROP">HeaderBackgroundImage</field>
+            <value name="VALUE">
+              <block type="text" id=",J7~/%!-c[]G-W1Wj`0A">
+                <field name="TEXT">bloodedonate_icon.jpg</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="%j8@M3S@9|t^ezRll(~!" x="110" y="-150">
+    <mutation component_type="Notifier" is_generic="false" instance_name="Notifier1" event_name="GotCustomChooseDialog"></mutation>
+    <field name="COMPONENT_SELECTOR">Notifier1</field>
+    <statement name="DO">
+      <block type="controls_if" id="neh;r{:M8kkfoUW-yirb">
+        <value name="IF0">
+          <block type="math_compare" id="N:g+!PHJ+,hY_baf!RvR">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="Cpq);PnRw+f4ou5;DH$M">
+                <mutation>
+                  <eventparam name="id"></eventparam>
+                </mutation>
+                <field name="VAR">id</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="THL9|t%e{:Gb7X/(e?53">
+                <field name="TEXT">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_if" id="CZ+JOeEtz,)NtpWL2L7;">
+            <value name="IF0">
+              <block type="math_compare" id="B8WEOwX4QhW,]7o|OaF]">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="text" id="{q~a8ZbooZ{yPV8]5GgX">
+                    <field name="TEXT">YES</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="lexical_variable_get" id="mMXV9cV0tJ|r,zWh[{B+">
+                    <mutation>
+                      <eventparam name="choice"></eventparam>
+                    </mutation>
+                    <field name="VAR">choice</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="controls_closeApplication" id="w%vE@IY20/nCkcgmY]WZ"></block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="241" language-version="34"></yacodeblocks>
+</xml>

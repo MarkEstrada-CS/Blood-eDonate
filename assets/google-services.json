@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "767176906902",
+    "firebase_url": "https://blood-e-donate-10045-default-rtdb.firebaseio.com",
+    "project_id": "blood-e-donate-10045",
+    "storage_bucket": "blood-e-donate-10045.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767176906902:android:b1bee1ba7f8b051c5f4ab7",
+        "android_client_info": {
+          "package_name": "com.plp.bloodedonate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767176906902-3ioman62shl7gv3tqie353v32b5obi5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plp.bloodedonate",
+            "certificate_hash": "0aabd0edec13aca194dccc072702fec90bd8af14"
+          }
+        },
+        {
+          "client_id": "767176906902-44kv58j469hk1rg8ahg8srdpphrhuufa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLmuwAYl8MJQlw6xP8lHKW4Iw-CShiEC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767176906902-44kv58j469hk1rg8ahg8srdpphrhuufa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="LZOr*I(FH#;e73*GY}Z+" x="-2490" y="-1090">
+    <mutation component_type="Clock" is_generic="false" instance_name="Clock1" event_name="Timer"></mutation>
+    <field name="COMPONENT_SELECTOR">Clock1</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="Yogx+Uc`lH7S;`O1DFeP">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="IS%@d1i{MpVIQJd`kay/">
+            <field name="SCREEN">menu</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="241" language-version="34"></yacodeblocks>
+</xml>
